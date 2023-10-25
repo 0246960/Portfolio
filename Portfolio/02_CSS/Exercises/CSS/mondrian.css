@@ -1,0 +1,135 @@
+.r1{
+    background-color: white;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 100px;
+    height: 550px;
+}
+.r2{
+    background-color: white;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 100px;
+    height: 200px; 
+}
+.r3{
+    background-color: white;
+    border-right: black solid 10px;
+    width: 100px;
+    height: 50px; 
+}
+.r4{
+    background-color: white;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 500px;
+    height: 550px;
+    position:relative;
+    top: -820px;
+    left: 110px;
+}
+.rBlue{
+    background-color: blue;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 500px;
+    height: 200px;
+    position:relative;
+    top: -820px;
+    left: 110px;
+}
+.r5{
+    background-color: white;
+    border-right: black solid 10px;
+    width: 500px;
+    height: 50px; 
+    position:relative;
+    top: -820px;
+    left: 110px;
+}
+.r6{
+    background-color: white;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 150px;
+    height: 100px; 
+    position:relative;
+    top: -1640px;
+    left: 620px;
+}
+.r7{
+    background-color: white;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 150px;
+    height: 440px; 
+    position:relative;
+    top: -1640px;
+    left: 620px;
+}
+.r8{
+    background-color: white;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 150px;
+    height: 200px; 
+    position:relative;
+    top: -1640px;
+    left: 620px;
+}
+.r9{
+    background-color: white;
+    border-right: black solid 10px;
+    width: 150px;
+    height: 50px; 
+    position:relative;
+    top: -1640px;
+    left: 620px;
+}
+.r10{
+    background-color: white;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 500px;
+    height: 100px; 
+    position:relative;
+    top: -2460px;
+    left: 780px;
+}
+.rRed{
+    background-color: red;
+    border-right: black solid 10px;
+    border-bottom: black solid 10px;
+    width: 500px;
+    height: 440px; 
+    position:relative;
+    top: -2460px;
+    left: 780px;
+}
+.r11{
+    background-color: white;
+    border-right: black solid 10px;
+    width: 500px;
+    height: 260px; 
+    position:relative;
+    top: -2460px;
+    left: 780px;
+}
+.rYellow{
+    background-color: yellow;
+    border-bottom: black solid 10px;
+    width: 350px;
+    height: 100px; 
+    position:relative;
+    top: -3280px;
+    left: 1290px;
+}
+.r12{
+    background-color: white;
+    border-bottom: black solid 10px;
+    width: 350px;
+    height: 440px; 
+    position:relative;
+    top: -3280px;
+    left: 1290px;
+}

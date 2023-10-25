@@ -1,0 +1,30 @@
+div{
+    background-color: aquamarine; color: red;
+}
+
+p{
+    font-family: Bai Jamjuree;
+}
+
+tbody{
+    background-color: blueviolet;
+}
+
+td{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#recent{
+    background-color: khaki; color: black;
+    color: black;
+    border-width: 5cm;
+}
+
+.leia{
+    display: block;
+    visibility: visible;
+}
+
+.leia:hover{
+    display: block;
+}

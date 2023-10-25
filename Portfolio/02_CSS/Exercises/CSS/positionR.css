@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.top-container{
+    background-color: red;
+    position:relative;    
+    left: 400px;
+}
+
+.mid-container{
+    background-color: blue;
+    position:relative;
+    top: -200px;
+}
+
+.bot-container{
+    background-color: yellow;
+    position:relative;
+    top: -400px;
+    left: 200px;
+}

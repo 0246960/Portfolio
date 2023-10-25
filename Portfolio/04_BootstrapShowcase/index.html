@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="Images/goku.jpg" rel="icon" sizes="32x32"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destination.html">Destination</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--background="images/Akagami.png"-->
+    <div id="header_info"> <!--style="background-color: gray; color: red;"-->
+        <!--This is a comment-->
+        <h1>My Personal Website</h1>
+        <blockquote class ="leia"> "I love you"--Princess Leia.</blockquote>
+        <blockquote class ="han"> "I know"--Han Solo.</blockquote>
+        <img src="./Images/Escudo UP.png" alt="Escudo de la UP" width="250 px"/>
+        <p>My name is Andrés López.<br/>
+        I´m a student at Universidad Panamericana<br/>
+        My address is <i>Av. Patito #1</i>, <b>ciudad Granja</b>, Zapopan, Jalisco</p>
+        <!-- <i>=<em> and <b>=<strong> -->
+    
+        <blockquote class ="yoda"> "Do or do not, ther is not try"--Yoda.</blockquote>
+    </div>
+    <a href="destination.html" alt="Link to destination page">My Favorite Vacations</a><br/>
+    <a href="https://google.com" alt="Link to google" target="_blank">Google</a><br/>
+    <a href="#recent" alt="Link to my recent activities">My Recent Activities</a><br/>
+    <a href="contact.html" alt="Link to contact page">Contact me</a><br/>
+
+    <div2>
+        <h2>Education</h2>
+        <u1>
+            <li>Kinder: "Kilimanjaro"</li>
+            <li>Primaria: "Cumbres de Morelia"</li>
+            <li>Secundaria: Cumbres de Morelia</li>
+            <li>Preparatoria: Anáhuac</li>
+            <!--<img src="https://www.todamorelia.com/wp-content/uploads/negocios/instituto-cumbres-en-morelia-80119-cumbres-250x250.jpg" alt="Escudo Cumbres"/>-->
+            <li>2021 - 2023: Universidad Panamericana</li>
+        </u1>
+
+        <!--Write an ordered list of your top 5 technical skills with a percentage of mastery. The percentage part should be emphasized.-->
+        <h2>Skills:</h2>
+        <u2>
+            <li>html programming 10%</li>
+            <li>C# programming 40%</li>
+            <li>C++ programming 70%</li>
+            <li>python programming 20%</li>
+            <li>Modeling with Maya 80%</li>
+        </u2><br/>
+    </div2>
+    <h>Homework<br/><br><br/>
+    <!--In a list at the same level as education, out of a list of 20 subjects, show your top 3 most liked school subjects and the bottom 3.<br/>
+    I don´t want to know any of the subjects in between! and they have to be properly numbered.<br/>
+    Each with a title "Top 3" and "Bottom 3".-->
+
+    <h>Top 3:</h>
+    <ol>
+        <li>Programación Orientada a Objetos</li>
+        <li>Modelado Digital</li>
+        <li>Análisis y diseño de algoritmos</li>
+    </ol>
+
+    <h>Bottom 3:</h>
+    <ol start="18">
+        <li>Creatividad e Innovación</li>
+        <li>Matemáticas de la computación</li>
+        <li>Química</li>
+    </ol>
+
+    <h id="recent">My last 3...</h>
+    <u>
+        <li><span>Movies</li></span>
+            <ol type="a">
+                <li>Meg 2: The Trench</li>
+                <li>Dragon Ball Z: Resurrection F</li>
+                <li>Dragon Ball Z: Battle of Gods</li>
+            </ol>
+        <li><span>Books</li></span>
+            <ol type="I">
+                <li>Hábitos Atómicos</li>
+                <li>Padre Rico, Padre Pobre</li>
+                <li>El Arte de Recaudar Capital</li>
+            </ol>
+        <li>TV Shows</li>
+            <ol>
+                <li>Dragon Ball Z</li>
+                <li>The Witcher</li>
+                <li>House of the Dragon</li>
+            </ol>
+    </u>
+    <img src="Images/goku.jpg" alt="Goku"/>
+
+    <h2>My family´s birthdays</h2> <!--   Tabla familiar   -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2"> Name</th>
+                <th colspan="2"> </th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Last name</th>
+                <th>Birth Date</th>
+                <th>Birth Place</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Andrés</td>
+                <td>López</td>
+                <td>December 3</td>
+                <td>Morelia</td>
+            </tr>
+            <tr>
+                <td>Adrián</td>
+                <td>López</td>
+                <td>December 3</td>
+                <td>Morelia</td>
+            </tr>
+            <tr>
+                <td>Martín Jr.</td>
+                <td>López</td>
+                <td>January 1</td>
+                <td>Morelia</td>
+            </tr>
+            <tr>
+                <td>Sofía</td>
+                <td>López</td>
+                <td>November 24</td>
+                <td>Morelia</td>
+            </tr>
+            <tr>
+                <td>Martín</td>
+                <td>López</td>
+                <td>September 24</td>
+                <td>Morelia</td>
+            </tr>
+            <tr>
+                <td>Laura</td>
+                <td>Álvarez</td>
+                <td>February 5</td>
+                <td>Guadalajara</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td colspan="8">6</td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

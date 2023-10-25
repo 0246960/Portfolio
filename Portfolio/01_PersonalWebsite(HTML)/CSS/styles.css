@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #424B54; /* Color of the navigation bar */
+}
+
+.navbar-brand {
+    color: #ffffff; /* Text color of the main title */
+}
+
+.navbar-brand:hover{
+    color:#93A8AC; /* Text color when hovering over the main title */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff; /* Text color of the navigation links */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #93A8AC; /* Text color when hovering over links */
+}
+
+.navbar-toggler{
+    color:#ffffff;
+}
