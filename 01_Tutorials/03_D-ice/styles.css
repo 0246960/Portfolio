@@ -1,0 +1,39 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+
+  body{
+    background-color: bisque;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Roboto';
+    font-size: 8rem;
+    color:black;
+  }
+  
+  p {
+    font-size: 2rem;
+    color:black;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+
+  footer{
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  }
